@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "DIN Pro";
+    src: url("DINPro/DINPro-CondBlack.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DIN Pro Black";
+    src: url("DINPro/DINPro-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DIN Pro Regular";
+    src: url("DINPro/DINPro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DIN Pro Light";
+    src: url("DINPro/DINPro-Light.otf") format("opentype");
+}
