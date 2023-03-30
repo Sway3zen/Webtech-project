@@ -6,3 +6,97 @@ nav ul {
 nav li {
     margin-left:36px;
 }
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+
+
+  .get-in-touch {
+    width: 145px;
+    text-align: center;
+    background-color: white;
+    transition: all ease 0.5s;
+  }
+
+  .get-in-touch:hover {
+    background: #FFF500;
+    transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+  }
+
+  .tlganim {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tlganim::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    height: 2px;
+    background-color: #FFF500;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .tlganim:hover::after,
+  .tlganim:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+  }
+
+  .navbar-brand {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo {
+    transition: transform .8s ease-out .15s;
+  }
+
+  .navbar-brand:hover .navbar-logo {
+    transform: rotateZ(-90deg);
+  }
+
+  .navbar-brand-name {
+    position: relative;
+    color: white;
+    top: 0;
+    line-height: 20px;
+    left: 5px;
+  }
+
+  .navbar-brand-name-1 {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .8s ease-out .15s;
+    font-family: "DIN Pro Regular";
+    font-weight: 700;
+    font-size: 36px;
+    top: 9px;
+  }
+
+  .navbar-brand:hover .navbar-brand-name-1 {
+    color: #FFF500;
+  }
+
+  .navbar-brand-name-2 {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s ease-out .15s;
+    font-family: "DIN Pro Light";
+    font-weight: 700;
+    font-size: 12px;
+  }
