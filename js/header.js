@@ -1,22 +1,4 @@
-document.write(`<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/bootstrap.min.css">
-  <link rel="stylesheet" href="../fonts/fonts.css">
-  <link rel="stylesheet" href="..//styles/header.css">
-  <title>Document</title>
-  <style>
-    
-  </style>
-
-</head>
-
-<body style="background-color: aqua;">
-  <header>
+document.write(`
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 0, 0, .85);">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -52,11 +34,4 @@ document.write(`<!DOCTYPE html>
       </ul>
     </div>
   </div>
-  </nav>
-  </header>
-
-
-  <script src="bootstrap.bundle.min.js"></script>
-</body>
-
-</html>`);
+  </nav>`);
