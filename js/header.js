@@ -1,5 +1,5 @@
 document.write(`
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 0, 0, .85);">
+  <nav class="navbar navbar-expand-xl navbar-light position-relative" style="background-color: rgba(0, 0, 0, .85); width:100%; z-index:2;">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="images/Logo.png" alt="Logo" height="41" class="mt-0 navbar-logo">

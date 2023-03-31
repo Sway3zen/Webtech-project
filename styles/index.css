@@ -1,0 +1,179 @@
+.header-123 {
+    position: relative;
+    height: auto;
+    min-height: 200px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-123-1 {
+    position: absolute;
+    height: auto;
+    min-height: 200px;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.header-123 * {
+    z-index: 0;
+}
+
+.header-info-1 {
+    position: relative;
+    max-width: 905px;
+    width: 90%;
+    height: 135px;
+    top: 140px;
+    font-family: 'DIN Pro';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+    color: #FFF500;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+    width: 97%;
+    max-width: 510px;
+    font-size: 14px;
+}
+
+.header-button-1 {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    font-family: 'DIN Pro';
+    font-weight: 900;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(43, 43, 41, 1);
+    background-color: rgb(255, 255, 255);
+    padding-left: 24px;
+    padding-right: 24px;
+    transition: transform 0.2s ease 0.2s;
+}
+
+.header-button-1 img {
+    transition: all ease 0.5s;
+}
+
+.header-button-1:hover {
+    background: #FFF500;
+    transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+}
+
+.header-button-1:hover img {
+    transform: translateY(-2px);
+}
+
+.header-button-2 img {
+    transform: rotateZ(-90deg);
+}
+
+.header-button-2 {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    font-family: 'DIN Pro';
+    font-weight: 900;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(43, 43, 41, 1);
+    background-color: rgb(255, 255, 255);
+    padding-left: 24px;
+    padding-right: 24px;
+    left: 30px;
+    transition: all ease 0.5s;
+}
+
+.header-button-2:hover {
+    background: #FFF500;
+    transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+}
+
+.who-we-are img {
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    max-height: 640px;
+}
+
+.who-we-are-text-1 {
+    color: rgb(43, 43, 41);
+    font-family: DIN Pro;
+    top: 170px;
+    font-weight: 900;
+    font-size: 36px;
+    width:auto;
+}
+
+.who-we-are-text-2 {
+    position: relative;
+    color: rgb(43, 43, 41);
+    font-family: DIN Pro;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 475px;
+    width: 100%;
+    top: 160px;
+    left: 0;
+}
+
+.thumb-wrap-1{
+    left:0;
+    position: relative;
+    margin-top:-120px;
+    display: flex;
+    justify-content: end;
+}
+
+.thumb-wrap-2{
+    max-width:640px;
+    max-height: 360px;
+    width:640px;
+    height: 360px;
+}
+
+@media (max-width: 576px) {
+    .header-info-1 {
+        font-size: 24px;
+        line-height: 28px;
+        top: 50px;
+        width: 96%;
+    }
+
+    .header-buttons {
+        margin-top: 70px;
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .header-123 {
+        min-height: 100%;
+
+    }
+
+    .header-button-1,
+    .header-button-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

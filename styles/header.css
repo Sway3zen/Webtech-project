@@ -17,6 +17,8 @@ nav li {
 
 
 
+
+
   .get-in-touch {
     width: 145px;
     text-align: center;
@@ -99,4 +101,11 @@ nav li {
     font-family: "DIN Pro Light";
     font-weight: 700;
     font-size: 12px;
+  }
+
+  @media (max-width: 1200px){
+    .tlganim::after{
+      width:100%;
+      left:0;
+    }
   }
