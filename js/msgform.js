@@ -1,6 +1,6 @@
 document.write(`
 <div class="message-form" style="background-image: url('images/Form.png');">
-        <div class="container" style="padding-top: 50px;">
+        <div class="container" style="padding-top: 70px;">
           <div>
             <label for="name">Name</label>
 

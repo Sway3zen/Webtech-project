@@ -1,8 +1,5 @@
 .message-form {
     position: relative;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
     top:750px;
     max-height: 710px;
     min-height: 709px;
