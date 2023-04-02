@@ -13,7 +13,7 @@ document.write(`
             <div class="col">
               <label for="phone">Phone</label>
               <input type="tel" id="phone" name="phone"
-              required minlength="4" maxlength="64" placeholder="Enter your phone">
+              required minlength="4" maxlength="12" placeholder="Enter your phone">
             </div>
             <div class="col">
               <label for="email">Email</label>
@@ -26,6 +26,6 @@ document.write(`
             <!--<input style="height:150px; padding-top: 0px; word-wrap: normal;" type="text" id="about" name="about" required minlength="4" maxlength="512" placeholder="Enter a brief message what you’d like to talk to us about">-->
             <textarea id="about" name="about" cols="40" placeholder="Enter a brief message what you’d like to talk to us about"></textarea>
           </div>
-          <div style="display:flex; justify-content: end; align-items: center; padding-top: 30px;"><a class="message-btn">send it</a></div>
+          <div class="message-btn-1" style=""><a class="message-btn">send it</a></div>
         </div>
       </div>`);
