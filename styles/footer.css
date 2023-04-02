@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    height: 290px;
+
+    background-size: cover;
+}
+
+.footer a {
+    color:
+    rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.footer p {
+    color:
+    rgba(255, 255, 255, 1);
+}
+
+.text-footer{
+    padding-top: 100px;
+}
+
+.text-footer-main {
+    font-size:20px;
+    font-family: "DIN Pro";
+    font-weight: 900;
+    line-height: 25px;
+    text-transform: uppercase;
+}

@@ -1,7 +1,7 @@
 document.write(`
   <nav class="navbar navbar-expand-xl navbar-light position-relative" style="background-color: rgba(0, 0, 0, .85); width:100%; z-index:2;">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="#header">
       <img src="images/Logo.png" alt="Logo" height="41" class="mt-0 navbar-logo">
       <span class="navbar-brand-name">
         <span class="navbar-brand-name-1">skylight</span>
