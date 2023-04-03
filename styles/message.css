@@ -71,7 +71,7 @@ textarea {
 @media (max-width: 576px){
     .message-form{
         position: absolute;
-        top: 2650px;
+        top: 2900px;
         max-height: 680px;
         min-height: 679px;
     }
@@ -99,7 +99,7 @@ textarea {
 
 @media (min-width: 576px) and (max-width: 900px) {
     .message-form {
-        top: 650px;
+        top: 50px;
         max-height: 740px;
         min-height: 739px;
     }

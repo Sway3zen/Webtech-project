@@ -79,7 +79,7 @@
 @media (max-width:576px) { 
     .footer {
         position: absolute;
-        top:7100px;
+        top:7200px;
         height: 880px;
         width:100%;
     }
@@ -105,5 +105,32 @@
     
     .text-footer-padding{
         padding-top: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+            position: absolute;
+            top:6800px;
+            height: 880px;
+            width:100%;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 530px) {
+    .footer {
+        position: absolute;
+        top:7600px;
+        height: 880px;
+        width:100%;
+    }
+}
+
+@media (min-width:531px) and (max-width:576px) {
+    .footer {
+        position: absolute;
+        top:7850px;
+        height: 880px;
+        width:100%;
     }
 }

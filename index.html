@@ -24,7 +24,7 @@
     <script src="js/header.js"></script>
   </header>
   <main>
-    <section>
+    <section style="z-index:1;">
       <span class="header-123-1"
         style="background-image: url('images/header-photo.png'); background-size: cover; background-position: center; background-repeat:no-repeat; height: 700px;"></span>
       <div class="header-123">
@@ -40,13 +40,13 @@
 
       
     </section>
-    <section>
+    <section class="who-we-are-back" style="background-image: url('images/Who-we-are.png'); z-index:5;"> 
 
       
 
-      <div class="who-we-are container">
+      <div class="who-we-are container" id="whatwedo" >
         <div class="row justify-content-between border-danger-subtle">
-          <div class="col-sm-4 col-md-4 mb-4 col-12">
+          <div class="col-sm-12 col-md-4 mb-4 col-12 col-xl-6">
             <div>
               <p class="who-we-are-text-1 position-relative text-uppercase" style="">про нас</p>
               <p class="who-we-are-text-2">Ми - велика продакшн-компанія з понад 10-річним досвідом співпраці з провідними світовими брендами та журналами. Засновані на знаннях і чіткому розумінні нашої роботи, ми досягаємо результатів, які можуть перевершувати всі очікування, підходячи до кожного проєкту індивідуально.
@@ -54,7 +54,7 @@
                 Ми маємо свою власну студію, де ми можемо здійснити фото- та відеозйомки будь-якої складності, такі як ювелірні вироби, мода, музичні кліпи, корпоративні фільми, комерційна реклама тощо.</p>
               </div>
           </div>
-          <div class="col-sm-4 col-md-4 mb-4 col-12 w-50">
+          <div class="col-sm-12 col-md-4 mb-4 col-12 col-xl-6">
             <div class="thumb-wrap-1 embed-responsive embed-responsive-16by9">
               <iframe class="thumb-wrap-2 embed-responsive-item"
                 src="https://player.vimeo.com/video/518306727?h=7aaa6c16db" frameborder="0"
@@ -123,8 +123,7 @@
           <div>
             <p class="projects-text-1">Тут дещо крутий текст<br>
               Тут дещо крутий текст</p>
-            <p class="projects-text-2 text-uppercase">переглянути всі проекти <img src="images/arrow-left.svg" width="18" alt=""
-                style="transform:rotateZ(-90deg)"></p>
+            <p class="projects-text-2 text-uppercase">переглянути всі проекти </p>
           </div>
           <div class="row justify-content-center" style="padding-top:90px;">
             <div class="col-sm-4 col-md-4 mb-4 col-8">
@@ -133,7 +132,7 @@
                 <p style="" class="projects-img-text-1">Zone 7</p>
               </div>
               <div style="" class="projects-img-text">
-                <img src="images/projects/bts.png" alt="" class="img-fluid">
+                <img src="images/projects/bts.png" alt="" class="img-fluid" style="">
                 <p style="" class="projects-img-text-1">#BTS SKYLIGHT STUDIO</p>
               </div>
             </div>
@@ -165,7 +164,7 @@
     <section>
       <div class="contact container">
         <div class="row justify-content-between border-danger-subtle">
-          <div class="col-sm-4 col-md-4 mb-4 col-12">
+          <div class="col-sm-8 col-md-4 mb-4 col-12 col-xl-6">
             <div style="padding-bottom:30px;">
               <p class="contact-name">Контакти</p>
               <div class="contact-text">
@@ -185,7 +184,7 @@
               </div>
             </div>
           </div>
-          <div class="contact-map col-sm-4 col-md-4 mb-4 col-12">
+          <div class="contact-map col-sm-4 col-md-4 mb-4 col-12 col-xl-6">
             <iframe class="contact-map-1"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14466.85975605603!2d55.1894883!3d24.9758115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f731231c8dbe7%3A0x6af467a057cbb38b!2sSkyLight%20studio%20L.L.C.!5e0!3m2!1suk!2sua!4v1680468836847!5m2!1suk!2sua"
               style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -199,7 +198,7 @@
     <div class="footer" style="background-image: url('images/Footer.png');" >
       <div class="container position-relative">
         <div class="row justify-content-center text-footer-padding">
-          <div class="col-sm-3 col-md-3 mb-4 col-lg-3 text-footer">
+          <div class="col-sm-6 col-md-3 mb-4 col-lg-3 col-xl-3 text-footer">
             <p class="text-footer-main" style="font-size:24px">агентство відеопродукції, яке ставить творчість на перше місце</p>
             <a href="#">
             <div class="footer-btn">  
@@ -207,7 +206,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-3 col-md-3 mb-4 col-lg-3 text-footer">
+          <div class="col-sm-6 col-md-3 mb-4 col-lg-3 col-xl-3 text-footer">
             <p class="text-footer-main">Меню</p>
             <div class="text-footer-all">
               <p>Фото</p>
@@ -215,13 +214,13 @@
               <p>відео маркетинг</p>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3 mb-4 col-lg-3 text-footer">
+          <div class="col-sm-6 col-md-3 mb-4 col-lg-3 col-xl-3 text-footer">
             <p class="text-footer-main">Студія</p>
             <div class="text-footer-all">
               <p>8, 47 street,<br>Dubai investment<br>park 2</p>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3 mb-4 col-lg-3 text-footer">
+          <div class="col-sm-6 col-md-3 mb-4 col-lg-3 col-xl-3 text-footer">
             <p class="text-footer-main">Контакти</p>
             <div class="text-footer-all">
               <p>+971568399199</p>
