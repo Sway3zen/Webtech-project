@@ -4,6 +4,8 @@
     width:100%;
 
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .footer a{
@@ -68,4 +70,40 @@
 .footer-btn:hover{
     background: #FFF500;
     transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+}
+
+.text-footer-padding {
+    padding-top: 0;
+}
+
+@media (max-width:576px) { 
+    .footer {
+        position: absolute;
+        top:7100px;
+        height: 880px;
+        width:100%;
+    }
+
+    .text-footer{
+        padding-top: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-btn{
+        font-size:18px;
+        margin: 0 auto;
+    }
+
+    .text-footer-main{
+        font-size:24px;
+        text-align: center;
+    }
+    .text-footer-all {
+        font-size:18px;
+    }
+    
+    .text-footer-padding{
+        padding-top: 250px;
+    }
 }

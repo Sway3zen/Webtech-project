@@ -109,7 +109,7 @@
 }
 
 .who-we-are {
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -144,7 +144,6 @@
 }
 
 .thumb-wrap-1 {
-    left: 0;
     position: relative;
     margin-top: 160px;
     display: flex;
@@ -153,6 +152,7 @@
 }
 
 .thumb-wrap-2 {
+    left:0;
     min-width: 300px;
     max-width: 640px;
     max-height: 360px;
@@ -350,6 +350,7 @@
     position: relative;
     min-height: 400px;
     min-width:300px;
+    width:50%;
   }
 
   .contact-map-1{
@@ -374,6 +375,8 @@
     .header-123 {
         min-height: 100%;
 
+
+
     }
 
     .header-button-1,
@@ -389,28 +392,31 @@
         background-repeat: no-repeat;
         height: 700px;
         width: 100%;
-        top: 620px;
+        top: 640px;
     }
 
     .who-we-are img {
         position: absolute;
         margin-top: 150px;
         visibility: hidden;
+
     }
 
     .who-we-are-text-1 {
         top: 100px;
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .who-we-are-text-2 {
         top: 90px;
+        width:100%;
     }
 
     .thumb-wrap-1 {
-        top: 200px;
+        display: flex;
         justify-content: center;
-        left: 0;
+        margin-top:50px;
+        left:60%;
     }
 
     .thumb-wrap-2 {
@@ -424,7 +430,7 @@
 
     .work-steps {
         position: absolute;
-        margin-top: 650px;
+        margin-top: 1250px;
     }
 
     .work-steps-1 {
@@ -459,7 +465,7 @@
 
     .our-partners {
         position: absolute;
-        top: 2550px;
+        top: 3300px;
     }
 
     .our-partners img {
@@ -497,9 +503,12 @@
         width:100%;
     }
     .contact-text {
-        font-size:14px;
+        font-size:16px;
+        width:100%;
     }
-
+    .contact-map{
+        width:100%;
+    }
 
 }
 
@@ -600,7 +609,7 @@
         min-height: 500px;
         min-width: 100px;
         height: 300px;
-        width: 100%;
+        width:100%;
         height: 100%;
     }
 
