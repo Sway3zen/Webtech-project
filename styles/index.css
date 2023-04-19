@@ -527,6 +527,9 @@
     .contact-map{
         width:100%;
     }
+    .footer {
+        top:7200px;
+    }
 
 }
 
@@ -544,6 +547,9 @@
         top:7150px;
         width:100%;
     }
+    .footer {
+        top:7850px;
+    }
 }
 @media (min-width: 450px) and (max-width: 530px) {
     .projects {
@@ -557,6 +563,9 @@
         position: absolute;
         top:6900px;
         width:100%;
+    }
+    .footer {
+        top:7600px;
     }
 }
 @media (min-width: 400px) and (max-width: 450px) {
@@ -572,6 +581,9 @@
         position: absolute;
         top:6500px;
         width:100%;
+    }
+    .footer {
+        top:7200px;
     }
 
 
@@ -593,6 +605,9 @@
 
     .who-we-are-back {
         height: 800px;
+    }
+    .footer {
+        top:6800px;
     }
 }
 

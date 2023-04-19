@@ -3,7 +3,7 @@ document.write(`
 
 <nav class="navbar navbar-expand-xl navbar-light position-relative" style="background-color: rgba(0, 0, 0, .80); width:100%; z-index:2;">
 <div class="container">
-  <a class="navbar-brand" href="#header">
+  <a class="navbar-brand" href="index.html">
     <img src="images/Logo.png" alt="Логотип" height="41" class="mt-0 navbar-logo">
     <span class="navbar-brand-name">
       <span class="navbar-brand-name-1">skylight</span>
@@ -22,7 +22,7 @@ document.write(`
         <a class="nav-link text-white tlganim" aria-current="page" href="#">відео</a>
       </li>
       <li class="nav-item"> 
-        <a class="nav-link text-white tlganim"  aria-current="page" href="#">фото</a>
+        <a class="nav-link text-white tlganim"  aria-current="page" href="photo.html">фото</a>
       </li>
       <li class="nav-item" >
         <a class="nav-link text-white tlganim" aria-current="page" href="#">відео-маркетинг</a>

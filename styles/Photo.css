@@ -1,0 +1,73 @@
+.Photo-main {
+    position: absolute;
+    top:0;
+    height: 700px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  width:100%;
+}
+
+.Photo-main-text-1 {
+    margin: 0;
+    
+
+    font-family: "DIN PRO";
+    font-size:64px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    color: #fff500;
+}
+
+.Photo-main-text-2 {
+    position: absolute;
+    bottom:70px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: "DIN PRO";
+    font-weight: 700;
+    font-size:18px;
+
+    color: white;
+    letter-spacing: 1.5px;    
+    text-transform: uppercase;
+}
+
+.Photo-main img {
+    position: absolute;
+    bottom:50px;
+    width:24px;
+    filter: contrast(0);    
+}
+
+.content-style {
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top:480px;
+
+}
+
+.content-style-text-main {
+    color:white;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+
+    font-family: "DIN PRO";
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2%;
+
+}
+
+.content-style-table {
+}
+
