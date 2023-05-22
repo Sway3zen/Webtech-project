@@ -6,6 +6,8 @@
     width: 100%;
     max-width:100%;
     left:0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 label {
