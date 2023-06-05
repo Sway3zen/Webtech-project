@@ -1,8 +1,5 @@
 .message-form {
-    position: relative;
-    top:50px;
-    max-height: 710px;
-    min-height: 709px;
+    min-height: 80vh;
     width: 100%;
     max-width:100%;
     left:0;
@@ -16,6 +13,7 @@ label {
     font-size:24px;
     text-transform: uppercase;
     font-weight: 300;
+    padding-top:10px;
 }
 
 input {
@@ -72,10 +70,7 @@ textarea {
 
 @media (max-width: 576px){
     .message-form{
-        position: absolute;
-        top: 2900px;
-        max-height: 680px;
-        min-height: 679px;
+        min-height: 90vh;
     }
 
     label {
@@ -84,14 +79,16 @@ textarea {
 
     input {
         height:60px;
-        font-size:18px;
+        font-size:14px;
         padding-left:12px;
+        padding-top:25px;
+        margin-top:3px;
     }
 
     textarea {
-        margin-top:10px;
+        margin-top:3px;
         height: 150px;
-        font-size:18px;
+        font-size:16px;
         padding-left:12px;
     }
     .message-btn-1{

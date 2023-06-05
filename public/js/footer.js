@@ -27,7 +27,7 @@ document.write(`<div class="footer" style="background-image: url('images/Footer.
       <p class="text-footer-main">Контакти</p>
       <div class="text-footer-all">
         <p>+971568399199</p>
-        <p>hello@skylightstudio.ae</p>
+        <p>hello@skylight-<br>studio.ae</p>
       </div>
     </div>
   </div>
