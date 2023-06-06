@@ -51,6 +51,25 @@ app.post('/submit-feedback', urlencodedParser, function (req, res) {
       });
   });
 
+  const authlogin = "Swayze"
+  const authpassword = "nazar"
+
+  app.post('/submit-login', urlencodedParser, function (req,res) {
+    if (!req.body) return res.sendStatus(400);
+
+    const { login, password} = req.body;
+    if (login === authlogin && password === authpassword) {
+      console.log(login);
+      console.log(password);
+      res.send("Дякую за вхід");
+    }
+    else {
+      alert("I can`t find this user.")
+    }
+
+  
+  })
+
 app.use(serveStatic(path.join(__dirname, 'public')));
 app.use('/styles', express.static(__dirname + 'public/styles'));
 app.use('/js', express.static(__dirname + 'public/js'));
