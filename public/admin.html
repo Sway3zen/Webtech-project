@@ -65,7 +65,11 @@
             <td>janesmith@example.com</td>
             <td>Just checking in.</td>
         </tr>
-        <!-- Додайте більше рядків за потреби -->
     </table>
+    <script>
+        if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_RELOAD) {
+          window.location.href = "/loginform.html";
+        }
+      </script>
 </body>
 </html>

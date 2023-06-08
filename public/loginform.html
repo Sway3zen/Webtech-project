@@ -11,7 +11,7 @@
 <body>
     <div class="login-box">
         <h2>Login</h2>
-        <form id="login-form" action="/submit-login" method="POST">
+        <form id="login-form" action="/submit-login" method="GET">
           <div class="user-box">
             <input type="text" name="userlogin" id="userlogin" required>
             <label>Username</label>
@@ -28,6 +28,7 @@
             Submit
           </a>
         </form>
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -35,19 +36,9 @@
         const login = $("#userlogin").val();
         const password = $("#userpassword").val();
 
-        $.ajax({
-          url: "/submit-login",
-          type: "POST",
-          data: {
-            login: login,
-            password: password,
-          },
-          success: function (data) {
-          },
-          error: function (xhr, status, error) {
-            console.log(error);
-          },
-        });
+        const queryString = `userlogin=${encodeURIComponent(login)}&userpassword=${encodeURIComponent(password)}`;
+        const url = "/submit-login?" + queryString;
+        window.location.href = url;
       }
     </script>
 </body>
