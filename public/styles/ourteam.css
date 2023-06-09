@@ -1,3 +1,7 @@
+body {
+    background-color: #EFEFEF;
+}
+
 .Ourteam-text {
     background-image: url('../images/ourteam/Headerphoto.png');
     background-repeat: no-repeat;
@@ -23,23 +27,85 @@
     background-image: url('../images/ourteam/Mainback.png');
     background-size: contain;
     background-repeat: repeat;
-    min-height: 70vh;
+    min-height:auto;
 }
 
 .peoples {
-	margin-top:15vh;
+    padding-top:10vh;
+    padding-bottom:10vh;
 }
 
-.people-1 {
+.people-1, .people-2, .people-3, .people-4, .people-5 {
+    background-image: url('../images/work-steps.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
     display: flex;
     flex-direction: row;
-gap:50px;
+    gap:30px;
 }
 
-.people-1 img {
-    width:15%;
+.people-2, .people-4  {
+    flex-direction: row-reverse;
+    margin-right: 5vh;
 }
+
+.people-5 {
+}
+
+.people-image {
+    padding-top:1.5%;
+    padding-left:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:22%;
+}
+
 
 .people-info-1 {
     width:50%;
+    padding-top:5vh;
+}
+
+.people-name {
+    
+font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #101010;
+
+}
+
+.people-rank {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 10px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #B4B4B4;
+}
+
+.people-about {
+    font-family: 'DIN Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    
+    color: #101010;
+    
+
 }
