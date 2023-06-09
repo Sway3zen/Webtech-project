@@ -119,32 +119,33 @@ app.get('/submit-login', function (req, res) {
 //     });
 // });
 
-function authenticate(req, res, next) {
-  const { userlogin, userpassword } = req.query;
-
-  if (userlogin === authlogin && userpassword === authpassword) {
-    next(); 
-  } else {
-    res.redirect('/loginform.html'); 
-  }
-}
-
-
-app.get('/feedbacks', authenticate, function (req, res) {
-  res.render('feedbacks');
-});
+let isAuthenticated = false;
 
 app.get('/submit-login', function (req, res) {
   const { userlogin, userpassword } = req.query;
 
   if (userlogin === authlogin && userpassword === authpassword) {
+    isAuthenticated = true; 
     res.redirect('/feedbacks'); 
   } else {
     res.send("I can't find this user.");
   }
 });
 
-
+app.get('/feedbacks', function (req, res) {
+  if (isAuthenticated) {
+    Feedback.find({})
+      .then(feedbacks => {
+        res.render('feedbacks', { feedbacks: feedbacks });
+      })
+      .catch(error => {
+        console.error('Failed to fetch feedbacks:', error);
+        res.sendStatus(500);
+      });
+  } else {
+    res.redirect('/loginform.html');
+  }
+});
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/styles', express.static(path.join(__dirname, 'public', 'styles')));

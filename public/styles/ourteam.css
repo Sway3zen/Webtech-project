@@ -1,0 +1,36 @@
+.Ourteam-text {
+    background-image: url('../images/ourteam/Headerphoto.png');
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Ourteam-text p {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 81px;
+    text-transform: uppercase;
+    color: #FFF500;
+}
+
+.Team {
+    margin-top: -10vh;
+    background-image: url('../images/ourteam/Mainback.png');
+    background-size: contain;
+    background-repeat: repeat;
+    min-height: 70vh;
+}
+
+.people-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.people-1 img {
+    width:25%;
+}

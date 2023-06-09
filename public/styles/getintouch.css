@@ -1,0 +1,97 @@
+.Lets-talk {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url('../images/getintouch/headerphoto.png');
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+.Lets-talk p {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 81px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFF500;
+}
+
+.Ready-menu {
+    background-image: url('../images/getintouch/readymenu.png');
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 50vh;
+    width: 100%;
+    margin-top: -15vh;
+}
+
+.Ready-menu a{
+    text-decoration: none;
+}
+.Ready-menu p {
+    
+font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 40px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #101010;
+
+}
+
+.text-ready{
+    padding-top: 150px;
+}
+
+.text-ready-main {
+    font-size:18px;
+    font-family: "DIN Pro";
+    font-weight: 900;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.text-ready-all p{
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 30px */
+
+color: #101010;
+}
+
+.text-ready-all p {
+    transition: color 0.2s ease 0.1s;
+}
+
+.text-ready-all p a {
+    font-family: "DIN Pro Regular";
+    font-size:16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.2s ease 0.1s;
+}
+
+.text-ready-all p:hover {
+    color:#FFF500;
+}
+.text-ready-all p a:hover {
+    color:#FFF500;
+}
+
+.text-ready-padding {
+    padding-top: 0;
+}

@@ -1,0 +1,60 @@
+.Lets-talk {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lets-talk-text-1 {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #101010;
+    white-space: nowrap; /* Заборонити перенос тексту */
+}
+
+.Lets-talk-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #101010;
+}
+
+.Lets-talk-text-2 {
+    padding-left: 25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:20px;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    
+    color: #FFFFFF;
+}
+
+.Lets-talk-text img {
+    text-align: center;
+    width: 10px;
+    filter: brightness(100%);
+}
+
+.lets-talk-1 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:50px;
+
+}

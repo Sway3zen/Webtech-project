@@ -101,11 +101,11 @@
 }
 
 .who-we-are-back {
-    min-height: 70vh;
+    margin-top:-10vh;
+    min-height: 60vh;
     min-width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:bottom;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .who-we-are {

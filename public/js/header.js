@@ -28,10 +28,10 @@ document.write(`
         <a class="nav-link text-white tlganim" aria-current="page" href="#">відео-маркетинг</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white tlganim" aria-current="page" href="#">наша команда</a>
+        <a class="nav-link text-white tlganim" aria-current="page" href="ourteam.html">наша команда</a>
       </li>
       <li class="nav-item get-in-touch" >
-        <a class="nav-link text-dark" aria-current="page" href="#">напишіть нам</a>
+        <a class="nav-link text-dark" aria-current="page" href="getintouch.html">напишіть нам</a>
       </li>
     </ul>
   </div>
