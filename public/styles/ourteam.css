@@ -26,13 +26,18 @@
     min-height: 70vh;
 }
 
+.peoples {
+	margin-top:15vh;
+}
+
 .people-1 {
     display: flex;
     flex-direction: row;
+gap:50px;
 }
 
 .people-1 img {
-    width:25%;
+    width:15%;
 }
 
 .people-info-1 {
