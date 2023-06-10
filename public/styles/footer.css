@@ -88,7 +88,7 @@
 
 @media (max-width:576px) { 
     .footer {
-        height: 50vh;
+        height: auto;
         width:100%;
     }
 
@@ -112,7 +112,7 @@
     }
     
     .text-footer-padding{
-        padding-top: 250px;
+        padding-top: 100px;
     }
 }
 

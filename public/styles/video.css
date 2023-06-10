@@ -1,0 +1,118 @@
+.header-back {
+    background-image: url('../images/video/header-back.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Video-main-text-1 {
+    font-family: "DIN PRO";
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff500;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top:auto;
+  }
+
+  .Video-main-btn-1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#fff500;
+    color:black;
+    width:13vh;
+    height: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: clamp(14px, 14px, 64px);
+line-height: 18px;
+padding-left: 1vh;
+padding-right: 1vh;
+  }
+
+  .Video-main-btn-1 img {
+    width:clamp(14px,18px,32px);
+  }
+  
+  .Video-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom:50px;
+  }
+  
+  .Video-main-text-2 {
+    text-decoration: none;
+    font-family: "DIN PRO";
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .Video-main-arrow {
+    width: 24px;
+    filter: contrast(0);
+  }
+  
+
+  .main-back {
+    margin-top:-50px;
+    background-image: url('../images/video/main-back.png');
+    min-height: 150vh;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .menu {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #f00;
+  }
+  
+  #imageTable td {
+    display: none;
+  }
+  
+  .content-style {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  .content-style.tab1 {
+    background-image: url('image1_bg.jpg');
+  }
+  
+  .content-style.tab2 {
+    background-image: url('image2_bg.jpg');
+  }
+  
+  .content-style.tab3 {
+    background-image: url('image3_bg.jpg');
+  }
+  
+  /* Додайте решту стилів фону для інших вкладок */
+  

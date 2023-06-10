@@ -1,3 +1,5 @@
+
+
 .header-123 {
     height: 100%;
     width: 100%;
@@ -405,20 +407,22 @@
 
     .who-we-are-back {
         min-height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .who-we-are {
         flex-direction: column;
         align-items: flex-end;
-        margin-top:-50px;
+
       }
 
       .who-we-are-block-1 {
-        margin-top:50px;
+        margin-top:80px;
       }
     
       .who-we-are-block-2 {
-        padding-bottom: 20vh;
+        padding-bottom: 10vh;
       }
 
     .who-we-are-text-1 {

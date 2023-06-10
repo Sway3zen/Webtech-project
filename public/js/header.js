@@ -19,7 +19,7 @@ document.write(`
         <a class="nav-link text-white tlganim" aria-current="page" href="#">про нас</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white tlganim" aria-current="page" href="#">відео</a>
+        <a class="nav-link text-white tlganim" aria-current="page" href="video.html">відео</a>
       </li>
       <li class="nav-item"> 
         <a class="nav-link text-white tlganim"  aria-current="page" href="photo.html">фото</a>

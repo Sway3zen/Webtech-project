@@ -1,0 +1,66 @@
+body {
+  overflow: hidden;
+}
+
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 1.7s ease-out, background-color 0.9s ease-out;
+}
+
+.preloader-container.hide-background {
+  opacity: 0;
+}
+
+.loader-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  z-index: 99;
+  opacity: 1;
+  transition: opacity 1.2s ease-out, transform 1.3s ease-out; 
+}
+
+.loader-brand-name {
+  position: relative;
+  color: white;
+  line-height: 20px;
+  left: 5px;
+}
+
+.loader-brand-name-1 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.8s ease-out 0.15s;
+  font-family: "DIN Pro Regular";
+  font-weight: 700;
+  font-size: 36px;
+  top: 9px;
+}
+
+.loader-brand-name-2 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-out 0.15s;
+  font-family: "DIN Pro Light";
+  font-weight: 700;
+  font-size: 12px;
+}
