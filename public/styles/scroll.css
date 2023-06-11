@@ -2,13 +2,13 @@
     width: 0.5em;
   }
    
-::-webkit-scrollbar-track {
-
-  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Прозорий фон */
+}
    
   ::-webkit-scrollbar-thumb {
     background-color: darkgrey;
-    outline: 1px solid slategrey;
+    outline: .5px solid slategrey;
     border-radius: 15px;
     height: 10px;
   }

@@ -1,0 +1,148 @@
+.header-back {
+    background-image: url('../images/ourteam/Headerphoto.png');
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    z-index:1;
+  }
+  
+  .Video-main-text-1 {
+    font-family: "DIN PRO";
+    font-size: 64px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff500;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+
+  .main-back-1 {
+    background-image: url('../images/marketing/main-back-1.png');
+    min-height: auto;
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top:-50px;
+    z-index:2;
+    position: relative;
+  }
+
+  .main-about-1 {
+    padding-top:80px;
+    z-index:2;
+
+  }
+
+  .main-about-text-1 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 45px;
+text-transform: uppercase;
+
+width:25vw;
+color: #2B2B29;
+padding-bottom:15px;
+  }
+
+  .main-about-text-2 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+
+padding-bottom:30px;
+  }
+
+  .main-about-2 {
+  }
+
+.main-about-2 p {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+}
+
+  .main-about-2 img {
+    margin-right: 15px;
+    width: 32px;
+}   
+
+.main-about-3 {
+    margin-top:30px;
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #2B2B29;
+
+width:35vw;
+padding-bottom: 60px;
+}
+
+.main-contact-back {
+    background-image: url('../images/ourteam/Headerphoto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    margin-top:-50px;
+    z-index: 3;
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+}
+
+.main-contact-back p {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 45px;
+text-transform: uppercase;
+color: #FFF500;
+width:40vw;
+}
+
+.main-contact-back a {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 22px;
+
+text-transform: uppercase;
+text-decoration: none;
+
+background-color: white;
+    transition: background-color 0.5s ease-out;
+
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+color: 
+rgba(16, 16, 16, 1);
+}
+
+.main-contact-back a:hover {
+    background-color: #FFF500;
+    transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+  }

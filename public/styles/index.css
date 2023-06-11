@@ -1,4 +1,6 @@
-
+body {
+    background-color: transparent;
+}
 
 .header-123 {
     height: 100%;
@@ -437,7 +439,7 @@
     }
 
     .work-steps-1 {
-        min-height: 40vh;
+        min-height: clamp(40vh,60vh,50vh);
     }
 
     .work-steps-1-1 {

@@ -17,8 +17,8 @@ function moveLoaderToTarget() {
   targetX -= startX;
   targetY -= startY;
 
-  loader.style.opacity = '0';
-  loader.style.transform = 'translate(' + (targetX + 5) + 'px, ' + (targetY + 25) + 'px)';
+  loader.style.opacity = '1';
+  loader.style.transform = 'translate(' + (targetX) + 'px, ' + (targetY+25) + 'px)';
 }
 
 window.addEventListener('load', function() {
@@ -38,7 +38,7 @@ function hideBackground() {
   setTimeout(deletecss, 2200);
   setTimeout(() => {
 document.body.style.overflow = "visible";
-}, 1000);
+}, 1500);
 }
 
 

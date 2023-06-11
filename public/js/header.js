@@ -25,7 +25,7 @@ document.write(`
         <a class="nav-link text-white tlganim"  aria-current="page" href="photo.html">фото</a>
       </li>
       <li class="nav-item" >
-        <a class="nav-link text-white tlganim" aria-current="page" href="#">відео-маркетинг</a>
+        <a class="nav-link text-white tlganim" aria-current="page" href="videomarketing.html">відео-маркетинг</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white tlganim" aria-current="page" href="ourteam.html">наша команда</a>

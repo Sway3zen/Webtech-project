@@ -25,6 +25,15 @@
     justify-content: center;
     text-align: center;
     background-color: #101010;
+    transition: background-color 0.5s ease-out;
+}
+
+.Lets-talk-text:hover {
+    background-color: #fff500;
+}
+
+.Lets-talk-text .Lets-talk-text-2:hover {
+    color:#101010
 }
 
 .Lets-talk-text-2 {
@@ -41,15 +50,21 @@
     display: flex;
     align-items: center;
     gap:30px;
-    
+    transition: color 0.5s ease-out;
     color: #FFFFFF;
 }
 
 .Lets-talk-text img {
     text-align: center;
     width: 10px;
-    filter: brightness(100%);
+    transition: filter 0.5s ease-out;
 }
+
+.Lets-talk-text:hover img {
+    filter: invert(100%);
+}
+
+
 
 .lets-talk-1 {
     width:100%;
