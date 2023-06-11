@@ -242,11 +242,106 @@ line-height: 20px;
 color: #2B2B29;
   }
 
-  .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+  .main-problem {
+    margin-top:-20px;
+    background-image: url('../images/marketing/main-back-2.png');
+    min-height: auto;
+    background-repeat: repeat;
+    background-size: contain;
   }
-  .no-padding {
-    padding-right: 0;
-    padding-left: 0;
+  
+  .main-problem-block-1 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 45px;
+text-transform: uppercase;
+
+color: #2B2B29;
   }
+
+  .main-problem-block-1-text-1 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-1-text-2 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #2B2B29;
+
+  }
+
+  .main-problem-block-1-text-3 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-1-image {
+    height: 100%;
+  }
+
+  .main-problem-block-2-text-1 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-2-text-2 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-2-text-3 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-2-text-4 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+  }
+
+  .main-problem-block-2-image {
+    width: 100%;
+    height: auto;
+  }
+
+  

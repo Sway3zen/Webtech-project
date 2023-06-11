@@ -1,0 +1,45 @@
+.main-back {
+    background-image: url('../images/aboutus/zyro-image.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+text-align: left;
+}
+
+.main-text{
+}
+
+.main-text-1 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 45px;
+text-transform: uppercase;
+
+color: #fff;
+
+}
+
+.main-text-2 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+width: 70%;
+
+
+color: #fff;
+
+}
+
+.thumb-wrap-2{
+    width:70vh;
+    height: 50vh;
+}

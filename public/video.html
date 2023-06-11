@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,89 +13,357 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <title>Video</title>
 </head>
+
 <body>
     <script src="js/header.js"></script>
     <main>
         <section class="header-back">
             <span class="Video-main-text-1">our show reel </span>
             <a href="#" class="Video-main-btn-1">Watch <img class="Video-btn-arrow" style="transform:rotateZ(-90deg)"
-                src="images/arrow-left.svg" alt=""></a>
-            <a href="#">
-                <div class="Video-main-content">
-                    <a class="Video-main-text-2">Подивитись більше проектів</a>
+                    src="images/arrow-left.svg" alt=""></a>
+                <div class="Video-main-content" onclick="location.href='#mainback';">
+                    <a class="Video-main-text-2" >Подивитись більше проектів</a>
                     <img class="Video-main-arrow" width="18" style="transform:rotateZ(360deg)"
                         src="images/arrow-left.svg" alt="">
                 </div>
-            </a>
         </section>
 
-        <section class="main-back">
-            <div class="menu">
-                <button class="tab active" data-tab="tab1">Вкладка 1</button>
-                <button class="tab" data-tab="tab2">Вкладка 2</button>
-                <button class="tab" data-tab="tab3">Вкладка 3</button>
-                <!-- Додайте решту вкладок тут -->
-              </div>
-              
-              <table id="imageTable">
+        <section class="main-back" id="mainback">
+            <div class="menu container">
+                <button class="tab active" data-tab="tab1">Promotion</button>
+                <button class="tab" data-tab="tab2">Music clip</button>
+                <button class="tab" data-tab="tab3">corporate</button>
+                <button class="tab" data-tab="tab4">fashion</button>
+                <button class="tab" data-tab="tab5">product</button>
+                <button class="tab" data-tab="tab6">ads</button>
+            </div>
+
+            <table id="imageTable">
                 <tr>
-                  <td class="tab1"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"></td>
-                  <td class="tab2">  <div class="container">
-                    <span class="content-style-text-main">Content Styles</span>
-                    <div class="position-relative">
-                        <div class="row justify-content-center">
-                            <div class="col-sm-4 col-md-4 col-8">
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/Fashion.png" alt="" class="img-fluid">
+                    <td class="tab1">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/zone7.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Zone 7</p>
+                                                <p class="projects-img-text-2">Promotion / Music clip / Corporate</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/bts.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">#BTS SKYLIGHT STUDIO</p>
+                                                <p class="projects-img-text-2">Promotion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/backstage.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Backstage for Jewelry brand</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Energydiet.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Energy diet uae</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Walters.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Walter's <br>Caffee v60</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/ayoub.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AYOUB NASRI - 
+                                                    Kaafu</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/promotional.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Promotional 
+                                                    video for 
+                                                    jewelry brand</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Themoney.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Not just the money</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/aim.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AIM | WORLD TRADE CENTRE</p>
+                                                <p class="projects-img-text-2">Corporate</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/noir.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">le bois noir</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <p class="projects-img-text-1">Fashion</p>
-                                </div>
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/bts.png" alt="" class="img-fluid">
-                                    </div>
-                                    <p class="projects-img-text-1">Product</p>
-                                </div>
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/backstage.png" alt="" class="img-fluid">
-                                    </div>
-                                    <p class="projects-img-text-1">E-commerce</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-8">
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/ayoub.png" alt="" class="img-fluid">
-                                    </div>
-                                    <p class="projects-img-text-1">Commercial</p>
-                                </div>
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/promotional.png" alt="" class="img-fluid">
-                                    </div>
-                                    <p class="projects-img-text-1">jewelry</p>
-                                </div>
-                                <div class="projects-img-text">
-                                    <div class="zoomable-photo">
-                                        <img src="images/projects/Lifestyle.png" alt="" class="img-fluid">
-                                    </div>
-                                    <p class="projects-img-text-1">Lifestyle</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div></td>
-                  <td class="tab3"><img src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"></td>
-                  <!-- Додайте решту зображень тут -->
+                    </td>
+                    <td class="tab2">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/zone7.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Zone 7</p>
+                                                <p class="projects-img-text-2">Promotion / Music clip / Corporate</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/ayoub.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AYOUB NASRI - 
+                                                    Kaafu</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tab3">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/zone7.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Zone 7</p>
+                                                <p class="projects-img-text-2">Promotion / Music clip / Corporate</p>
+                                            </div>
+            
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/backstage.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Backstage for Jewelry brand</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/ayoub.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AYOUB NASRI - 
+                                                    Kaafu</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/aim.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AIM | WORLD TRADE CENTRE</p>
+                                                <p class="projects-img-text-2">Corporate</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tab4">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/bts.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">#BTS SKYLIGHT STUDIO</p>
+                                                <p class="projects-img-text-2">Promotion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Energydiet.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Energy diet uae</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Walters.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Walter's <br>Caffee v60</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/promotional.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Promotional 
+                                                    video for 
+                                                    jewelry brand</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Themoney.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Not just the money</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/noir.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">le bois noir</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tab5">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/bts.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">#BTS SKYLIGHT STUDIO</p>
+                                                <p class="projects-img-text-2">Promotion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Energydiet.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Energy diet uae</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Walters.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Walter's <br>Caffee v60</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/promotional.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Promotional 
+                                                    video for 
+                                                    jewelry brand</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/Themoney.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Not just the money</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/noir.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">le bois noir</p>
+                                                <p class="projects-img-text-2">Fashion / Product</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tab6">
+                        <div class="container">
+                            <div class="content-style">
+                                <div class="position-relative">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/backstage.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">Backstage for Jewelry brand</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-8">
+                                            <div class="projects-img-text">
+                                                <div class="zoomable-photo">
+                                                    <img src="images/projects/ayoub.png" alt="" class="img-fluid">
+                                                </div>
+                                                <p class="projects-img-text-1">AYOUB NASRI - 
+                                                    Kaafu</p>
+                                                <p class="projects-img-text-2">Category 1 / Category 2 / Category 3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
-              </table>
-            </div>              
+            </table>
+            </div>
+        </section>
+
+        <section>
+            <script src="js/readytalk.js"></script>
         </section>
     </main>
+
+    <footer>
+        <script src="js/footer.js"></script>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/video-menu.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

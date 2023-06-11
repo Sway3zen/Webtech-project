@@ -1,0 +1,102 @@
+body {
+    font-family: 'lato', sans-serif;
+    background-image: url('../images/Admin/main-back4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+    h1 {
+        color:rgba(255,255,255,0.4);
+    }
+    small {
+      font-size: 0.5em;
+    }
+  
+  .responsive-table {
+  }
+    li {
+      border-radius: 12px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .table-header {
+      background-color: #95A5A6;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+      opacity: 0.8;
+    }
+    .col-1 {
+      flex-basis: 15%;
+    }
+    .col-2 {
+      flex-basis: 15%;
+    }
+    .col-3 {
+      flex-basis: 20%;
+    }
+    .col-4 {
+      flex-basis: 50%;
+      word-wrap:break-word;
+    }
+
+
+    .admin-box {
+        margin-left:10%;
+        margin-top:7%;
+        width: 80%;
+        min-height: auto;
+        padding: 40px;
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+        overflow: auto;
+      }
+
+    
+    @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+      .table-row{
+        
+      }
+      li {
+        display: block;
+      }
+      .col {
+        
+        flex-basis: 100%;
+        
+      }
+      .col {
+        display: flex;
+        padding: 10px 0;
+      }
+        col::before {
+          color: #6C7A89;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }

@@ -17,3 +17,13 @@
     font-family: "DIN Pro Light";
     src: url("DINPro/DINPro-Light.otf") format("opentype");
 }
+
+@font-face {
+    font-family: "DIN Pro Medium";
+    src: url("DINPro/DINPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DIN Pro Cond";
+    src: url("DINPro/DINPro-Cond.otf") format("opentype");
+}

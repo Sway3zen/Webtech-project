@@ -1,6 +1,6 @@
 
 .Lets-talk {
-    height: 20vh;
+    min-height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;

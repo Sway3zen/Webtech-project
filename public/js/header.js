@@ -16,7 +16,7 @@ document.write(`
   <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-family: DIN Pro; font-weight: 900;font-size:18px;">
       <li class="nav-item ">
-        <a class="nav-link text-white tlganim" aria-current="page" href="#">про нас</a>
+        <a class="nav-link text-white tlganim" aria-current="page" href="aboutus.html">про нас</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white tlganim" aria-current="page" href="video.html">відео</a>
