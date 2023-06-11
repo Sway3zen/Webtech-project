@@ -99,7 +99,7 @@ padding-bottom: 60px;
     background-image: url('../images/ourteam/Headerphoto.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 50vh;
+    min-height: 60vh;
     margin-top:-50px;
     z-index: 3;
     display: flex;
@@ -107,9 +107,10 @@ align-items: center;
 justify-content: center;
 text-align: center;
 flex-direction: column;
+gap:20px;
 }
 
-.main-contact-back p {
+.main-contact-text-1 {
     font-family: 'DIN Pro';
 font-style: normal;
 font-weight: 900;
@@ -117,7 +118,18 @@ font-size: 36px;
 line-height: 45px;
 text-transform: uppercase;
 color: #FFF500;
-width:40vw;
+width:50vw;
+}
+
+.main-contact-text-2 {
+  font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
 }
 
 .main-contact-back a {
@@ -145,4 +157,96 @@ rgba(16, 16, 16, 1);
 .main-contact-back a:hover {
     background-color: #FFF500;
     transition: cubic-bezier(1, 1, 0.5, 1) 0.5s;
+  }
+
+  .main-steps-back {
+    position: relative;
+    margin-top:-20px;
+    z-index:2;
+    background-image: url('../images/marketing/main-back-1.png');
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: auto;
+    padding-bottom:50px;
+  }
+
+  .main-steps-1 {
+    padding-top:50px;
+
+  }
+
+  .main-steps-text-1-1 {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    
+    text-transform: uppercase;
+    
+    color: #2B2B29;
+  }
+
+  .main-steps-text-1-2 {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #2B2B29;
+
+  }
+
+  .main-steps-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .main-steps-2-1 {
+    min-height: auto;
+    width:25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-steps-block {
+    padding-top:32vh;
+  }
+
+  .main-steps-2-1-text-1 {
+    font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+color: #2B2B29;
+  }
+
+  .main-steps-2-1-block {
+    padding-left: 5vh;
+  }
+
+  .main-steps-2-1-block li {
+    font-family: 'DIN Pro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #2B2B29;
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .no-padding {
+    padding-right: 0;
+    padding-left: 0;
   }
