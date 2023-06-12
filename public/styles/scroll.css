@@ -9,7 +9,7 @@
   ::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: .5px solid slategrey;
-    border-radius: 15px;
+    border-radius: 5em;
     height: 10px;
   }
 

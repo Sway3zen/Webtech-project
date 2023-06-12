@@ -55,14 +55,14 @@ body {
 }
 
 .people-image {
-    padding-top:1.5%;
-    padding-left:1%;
+    padding-top:2vh;
+    padding-left:2vh;
     display: flex;
     align-items: center;
     justify-content: center;
     mask-repeat: no-repeat;
-    width:auto;
-    height: auto;
+    width:25vh;
+    height: 25vh;
 }
 
 

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/Photo.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/readytalk.css">
+    <link rel="stylesheet" href="styles/scroll.css">
 </head>
 
 <body>
@@ -22,13 +23,11 @@
         <section class="Photo-main"
             style="background-image: url('images/Photo_page/Base-header.png'); background-repeat: no-repeat; background-size: cover;">
             <span class="Photo-main-text-1">Фото</span>
-            <a href="#">
-                <div class="Photo-main-content">
+                <div class="Photo-main-content" onclick="location.href='#mainback';">
                     <a class="Photo-main-text-2">Подивитись більше проектів</a>
                     <img class="Photo-main-arrow" width="18" style="transform:rotateZ(360deg)"
                         src="images/arrow-left.svg" alt="">
                 </div>
-            </a>
         </section>
 
        <!-- <section class="content-style" style="background-image: url('images/Photo_page/ContentStyle.png');">
@@ -52,7 +51,7 @@
   </div>
 </section> -->
 
-<section class="content-style" style="background-image: url('images/Photo_page/ContentStyle.png');">
+<section class="content-style" style="background-image: url('images/Photo_page/ContentStyle.png');" id="mainback">
   <div class="container">
       <span class="content-style-text-main">Content Styles</span>
       <div class="position-relative">

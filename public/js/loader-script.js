@@ -11,8 +11,8 @@ var loader = document.getElementById('loader');
 loader.style.transform = 'translate(-50%, -50%)';
 
 function moveLoaderToTarget() {
-  var startX = window.innerWidth / 2; // половина ширини екрана
-  var startY = window.innerHeight / 2; // половина висоти екрана
+  var startX = window.innerWidth / 2; 
+  var startY = window.innerHeight / 2; 
 
   targetX -= startX;
   targetY -= startY;
@@ -21,8 +21,10 @@ function moveLoaderToTarget() {
   loader.style.transform = 'translate(' + (targetX) + 'px, ' + (targetY+25) + 'px)';
 }
 
+
+
 window.addEventListener('load', function() {
-  setTimeout(moveLoaderToTarget, 1000); // Затримка виклику функції на 1 секунду (для демонстраційних цілей)
+  setTimeout(moveLoaderToTarget, 1000); 
 });
 
 function deletecss() {

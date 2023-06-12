@@ -14,7 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: opacity 1.7s ease-out, background-color 0.9s ease-out;
+  transition: opacity 2.2s ease-out, background-color 0.9s ease-out;
 }
 
 .preloader-container.hide-background {
@@ -32,8 +32,10 @@ body {
   background-color: #000000;
   z-index: 99;
   opacity: 1;
-  transition: opacity 1.2s ease-out, transform 1.3s ease-out; 
-}
+  transition: opacity 1.4s ease-out, transform 1.3s ease-in-out .4s;
+  /* transition: opacity 1.4s ease-out, transform 1.3s ease-out;*/
+
+} 
 
 .loader-brand-name {
   position: relative;
